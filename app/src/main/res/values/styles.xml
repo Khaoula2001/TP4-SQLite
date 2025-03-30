@@ -1,0 +1,24 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/darker_gray</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">@color/pink_dark</item>
+        <item name="colorPrimaryVariant">@color/pink_light</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialogButton</item>
+    </style>
+
+    <style name="AlertDialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/pink_dark</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialComponents.MaterialCalendar" parent="">
+        <item name="colorPrimary">@color/pink_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TP4SQLite" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TP4SQLite" parent="Base.Theme.TP4SQLite" />
+
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item> <!-- Couleur de la TopBar -->
+        <item name="colorPrimaryVariant">#3700B3</item> <!-- Couleur de la StatusBar -->
+        <item name="android:statusBarColor">#3700B3
+        </item> <!-- Assure que la StatusBar n'est pas blanche -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Texte en blanc sur la barre -->
+    </style>
+</resources>
+
